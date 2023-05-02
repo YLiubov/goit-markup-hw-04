@@ -59,6 +59,9 @@ img {
 */
 .header {
 	border-bottom: 1px solid #E7E9FC;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+	0px 1px 1px rgba(46, 47, 66, 0.16), 
+	0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -154,8 +157,15 @@ img {
 */
 .hero {
 	background-color: var(--color-navy-blue);
+	background-image: url(../images/hero/Dark-bg.png), 
+					  url(../images/hero/people-office\ 1.jpg);
 	padding-top: 188px;
 	padding-bottom: 188px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 .hero-title {
 	max-width: 496px;
