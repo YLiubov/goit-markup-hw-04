@@ -157,13 +157,15 @@ img {
 */
 .hero {
 	background-color: var(--color-navy-blue);
-	background-image: url(../images/hero/Dark-bg.png), 
-					  url(../images/hero/people-office\ 1.jpg);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+	rgba(46, 47, 66, 0.7)), url(../images/hero/people-office\ 1.jpg);
+	max-width: 1440px;
+	background-repeat: no-repeat;
+	background-size: cover; 
 	padding-top: 188px;
 	padding-bottom: 188px;
 	margin-left: auto;
 	margin-right: auto;
-	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 }
