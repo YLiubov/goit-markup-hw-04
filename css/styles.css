@@ -378,6 +378,10 @@ color: var(--color-slate);
 	color: var(--color-ocean);
 }
 
+.customers-icon {
+	fill: currentColor;
+}
+
 /*
 ========= footer style ========= 
 */
