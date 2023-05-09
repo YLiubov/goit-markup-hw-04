@@ -282,12 +282,6 @@ img {
 	padding: 120px 0;
 }
 
-.team-social {
-	padding-top: 32px;
-	padding-bottom: 32px;
-
-}
-
 .team-social-list {
 	display: flex;
 	justify-content: center;
@@ -434,6 +428,12 @@ color: var(--color-slate);
 	line-height: 1.5;
 	color: var(--color-cloud);
 	max-width: 264px
+}
+
+.footer-icon {
+	display: flex; 
+	align-items: baseline;
+
 }
 
 /*
