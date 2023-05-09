@@ -332,8 +332,6 @@ img {
 .team-employee {
 	padding-top: 32px; 
 	padding-bottom: 32px; 
-	padding-left: 16px; 
-	padding-right: 16px;
 }
 
 .team-sub-title {
@@ -349,7 +347,9 @@ img {
 line-height: 1.5;
 text-align: center;
 color: var(--color-slate);
+margin-bottom: 8px;
 }
+
 .team-item {
 	background-color: var(--color-white);
 	width: calc((100% - 72px) / 4);
